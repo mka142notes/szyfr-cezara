@@ -128,6 +128,9 @@ function App() {
                 multiline
                 value={text}
                 onChange={onChange}
+                inputProps={{
+                  spellCheck: false,
+                }}
               />
             </Grid>
             <Grid item className={classes.centerVertical}>
