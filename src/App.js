@@ -160,7 +160,7 @@ function App() {
               </div>
             </Grid>
             <Grid item className={clsx(classes.centerVertical, classes.result)}>
-              <Typography>Wynik:</Typography>
+              <Typography>Szyfrogram:</Typography>
               <Typography className={classes.resultText}>{result}</Typography>
             </Grid>
             <Grid item className={classes.centerVertical}>
